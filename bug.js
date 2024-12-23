@@ -1,0 +1,1 @@
+This error occurs when you try to access a property of an object that is null or undefined.  For example, if you have an object `user` and try to access `user.name` when `user` is null, you'll get this error. This is common in asynchronous operations where data might not have loaded yet when you try to access it.
